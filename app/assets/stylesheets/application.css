@@ -11,3 +11,200 @@
  *= require_self
  *= require_tree .
  */
+/* -------------------------------------------------------------------------*/
+/* Layout */
+/* line 9, ../scss/screen.scss */
+.container {
+  *zoom: 1;
+  max-width: 131em;
+  _width: 131em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+/* line 38, ../../../../.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 14, ../scss/screen.scss */
+.first {
+  height: 700px;
+  background-image: url(./img/piano_long.jpg);
+  width: 100%;
+}
+
+/* line 19, ../scss/screen.scss */
+.header {
+  width: 100%;
+  height: 100px;
+  vertical-align: middle;
+  margin: 0;
+  background-color: white;
+}
+/* line 26, ../scss/screen.scss */
+.header h1 {
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  padding-top: 22px;
+  font-size: 3em;
+  font-family: 'Lato', sans-serif;
+  color: black;
+}
+
+/* line 38, ../scss/screen.scss */
+.main-content {
+  margin-top: 125px;
+  width: 50%;
+  float: left;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+/* line 45, ../scss/screen.scss */
+.main-content h1 {
+  font-size: 6.5em;
+  margin: 0;
+}
+/* line 49, ../scss/screen.scss */
+.main-content h3 {
+  font-size: 2em;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+/* line 54, ../scss/screen.scss */
+.main-content .small {
+  font-size: 1.45em;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 61, ../scss/screen.scss */
+.second {
+  background-color: #e3e3e3;
+  background-image: url(./img/greyzz.png);
+}
+
+/* line 68, ../scss/screen.scss */
+.main-footer {
+  width: 100%;
+}
+/* line 72, ../scss/screen.scss */
+.main-footer .footer-element {
+  text-align: center;
+  float: left;
+  width: 24%;
+  min-width: 100px;
+  min-height: 93px;
+  background-image: url(./img/greyzz.png);
+  font-weight: 700;
+  font-size: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+
+/* line 86, ../scss/screen.scss */
+.content-block {
+  width: 100%;
+  min-height: 343px;
+}
+/* line 90, ../scss/screen.scss */
+.content-block h2 {
+  width: 50%;
+  margin: auto;
+  padding-top: 25px;
+  font-family: 'Lato', sans-serif;
+  font-size: 3em;
+}
+/* line 97, ../scss/screen.scss */
+.content-block p {
+  width: 50%;
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 106, ../scss/screen.scss */
+.last {
+  height: 270px;
+}
+
+/* line 110, ../scss/screen.scss */
+.one {
+  background-color: #ffffff;
+}
+
+/* line 114, ../scss/screen.scss */
+.two {
+  background-image: url(./img/greyzz.png);
+}
+
+/* line 118, ../scss/screen.scss */
+.three {
+  background-color: #ffffff;
+}
+
+/* line 122, ../scss/screen.scss */
+.four {
+  background-color: #eff0f1;
+  background-image: url(./img/greyzz.png);
+}
+
+/* line 127, ../scss/screen.scss */
+body {
+  margin: 0;
+}
+
+/* line 131, ../scss/screen.scss */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 136, ../scss/screen.scss */
+.myButton {
+  -moz-box-shadow: inset 0px 1px 0px 0px #f0f7fa;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #f0f7fa;
+  box-shadow: inset 0px 1px 0px 0px #f0f7fa;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #33bdef), color-stop(1, #019ad2));
+  background: -moz-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+  background: -webkit-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+  background: -o-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+  background: -ms-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+  background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bdef', endColorstr='#019ad2',GradientType=0);
+  background-color: #33bdef;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+  border: 1px solid #057fd0;
+  display: inline-block;
+  color: #ffffff;
+  font-family: Lato, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 6px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #5b6178;
+}
+
+/* line 169, ../scss/screen.scss */
+.myButton:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #019ad2), color-stop(1, #33bdef));
+  background: -moz-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+  background: -webkit-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+  background: -o-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+  background: -ms-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+  background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#019ad2', endColorstr='#33bdef',GradientType=0);
+  background-color: #019ad2;
+}
+
+/* line 181, ../scss/screen.scss */
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
